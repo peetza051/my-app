@@ -29,8 +29,8 @@
     color: white !important;
     ;
 }
-nav div ul :hover {
-    line-height: 1.59   ;
+nav div ul a :hover {
+    line-height: 1.5   ;
     text-transform: capitalize;
     border-bottom: 2px solid white;
     padding-bottom: 16px;
