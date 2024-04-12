@@ -1,0 +1,39 @@
+.bg {
+    background-image: url(./image/1.png) ;
+    width: 100%;
+    height: 100%px;
+    background-size: cover;
+
+
+}
+.mui-style-10gnrls {
+    margin: 0px;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.334;
+    text-transform: capitalize;
+    border-bottom: 2px solid white;
+    padding-bottom: 16px;
+    font-family: PKSamutSakhon-Medium !important;
+    color: white !important;
+}
+.colum-van{
+    flex-direction: column
+}
+.text-nav{
+    line-height: 1.334;
+    text-transform: capitalize;
+    border-bottom: 2px solid white;
+    padding-bottom: 16px;
+    font-family: PKSamutSakhon-Medium !important;
+    color: white !important;
+    ;
+}
+nav div ul :hover {
+    line-height: 1.59   ;
+    text-transform: capitalize;
+    border-bottom: 2px solid white;
+    padding-bottom: 16px;
+    font-family: PKSamutSakhon-Medium !important;
+    color: white !important;
+}

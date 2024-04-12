@@ -20,19 +20,27 @@ export const menu : string[] = ["home", "about", "services", "contact"];
 
 export const list1 : {name: string ,srcl: string}[] = [         //ต้องประกาศ type เพื่อทำให้ code
     {
-      name: "home",
+      name: "หน้าหลัก",
       srcl: "#home",
     },
     {
-      name: "about",
+      name: "ข้อมูลบริษัท",
       srcl: "#about",
     },
     {
-      name: "services",
+      name: "กลุ่มบริษัทในเครือ",
+      srcl: "#connection",
+    },
+    {
+      name: "รูปแบบการให้บริการ",
       srcl: "#services",
     },
     {
-      name: "contact",
+      name: "ข่าวสารและกิจกรรม",
+      srcl: "#news",
+    },
+    {
+      name: "ติดต่อเรา",
       srcl: "#contact",
     },
   ];
