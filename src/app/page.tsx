@@ -17,22 +17,22 @@ import  './index.css'
 export default function Navbar() {
   return <div>
   <nav className="  container  border-2  border-red-900  "> {/* ขาดสี ขาด hover แล้วมีเส้นใต้ ขาดเปลี่ยนภาษา ขาดกดที่ Logo แล้วไปหน้าแรก */}
-  <div className="bg-blue-900 container  box-border h-14 w-200  flex  text-sm font-bold justify-around border-2 border-red-900 ">
-    
+   <div className="bg-blue-900 ">
+    <div className=" container    flex  text-sm font-bold justify-around border-4 border-red-900 ">
     <img  src="https://finstable.co.th/images/logo-finstable-white.png" className=" flex w-1/10.5 h-7 order--1 my-auto justify-start  border-1 border-white"  /> {/*pr-44*/}
-     <ul className=" flex p-4 space-x-4 my-auto border-2 border-white  ">
+     <ul className=" flex p-4 space-x-4 my-auto border-0 border-white  ">
       
      {list1.map((item:any, index:number) => {
   return (
     <a key={index} 
-       href={item.srcl} className="flex text-white  hover:text-nav border-8 border-white "> {/* href คือการลิ้งค์ item.srcl กับnavbarข้างบน */}
+       href={item.srcl} className="  flex text-white   border-0 border-white "> {/*  hover:text-nav   href คือการลิ้งค์ item.srcl กับnavbarข้างบน */}
          {item.name}
       
     </a>
   );
 })}
      </ul>
-    
+    </div>
   </div>
   <div className="  ">
     <div className=" colum-van flex  p-60 bg">

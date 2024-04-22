@@ -20,7 +20,7 @@
 .colum-van{
     flex-direction: column
 }
-.text-nav{
+/* .text-nav{
     line-height: 1.334;
     text-transform: capitalize;
     border-bottom: 2px solid white;
@@ -28,8 +28,9 @@
     font-family: PKSamutSakhon-Medium !important;
     color: white !important;
     ;
-}
+} */
 nav div ul a :hover {
+    
     line-height: 1.5   ;
     text-transform: capitalize;
     border-bottom: 2px solid white;
